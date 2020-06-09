@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="19cf2022-1872-40a3-96fc-b0f73642ae26" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1d4cpDGAC14u3N9EtmM0xjmfSRP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="mok_01_scikit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="scikit_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mok_01_scikit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.mok_01_scikit" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19cf2022-1872-40a3-96fc-b0f73642ae26" name="Default Changelist" comment="" />
+      <created>1591687987087</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591687987087</updated>
+      <workItem from="1591687991658" duration="341000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="104" y="58" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591688092451">
+      <screen x="0" y="23" width="1280" height="746" />
+    </state>
+    <state x="104" y="58" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.746@0.23.1280.746" timestamp="1591688092451" />
+    <state x="347" y="23" key="#mok_01_scikit" timestamp="1591688073942">
+      <screen x="0" y="23" width="1280" height="746" />
+    </state>
+    <state x="347" y="23" key="#mok_01_scikit/0.23.1280.746@0.23.1280.746" timestamp="1591688073942" />
+    <state width="1238" height="201" key="GridCell.Tab.0.bottom" timestamp="1591688251877">
+      <screen x="0" y="23" width="1280" height="746" />
+    </state>
+    <state width="1238" height="201" key="GridCell.Tab.0.bottom/0.23.1280.746@0.23.1280.746" timestamp="1591688251877" />
+    <state width="1238" height="201" key="GridCell.Tab.0.center" timestamp="1591688251875">
+      <screen x="0" y="23" width="1280" height="746" />
+    </state>
+    <state width="1238" height="201" key="GridCell.Tab.0.center/0.23.1280.746@0.23.1280.746" timestamp="1591688251875" />
+    <state width="1238" height="201" key="GridCell.Tab.0.left" timestamp="1591688251874">
+      <screen x="0" y="23" width="1280" height="746" />
+    </state>
+    <state width="1238" height="201" key="GridCell.Tab.0.left/0.23.1280.746@0.23.1280.746" timestamp="1591688251874" />
+    <state width="1238" height="201" key="GridCell.Tab.0.right" timestamp="1591688251876">
+      <screen x="0" y="23" width="1280" height="746" />
+    </state>
+    <state width="1238" height="201" key="GridCell.Tab.0.right/0.23.1280.746@0.23.1280.746" timestamp="1591688251876" />
+    <state x="141" y="35" key="SettingsEditor" timestamp="1591688122503">
+      <screen x="0" y="23" width="1280" height="746" />
+    </state>
+    <state x="141" y="35" key="SettingsEditor/0.23.1280.746@0.23.1280.746" timestamp="1591688122503" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/scikit_learn$mok_01_scikit.coverage" NAME="mok_01_scikit Coverage Results" MODIFIED="1591688251851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
