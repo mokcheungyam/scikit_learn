@@ -139,10 +139,13 @@ def pca():
     主成分分析进行特征降维
     """
     pca = PCA(n_components=0.9)
+    pca2 = PCA(n_components=1)
 
     data = pca.fit_transform([[2, 8, 4, 5], [6, 3, 0, 8], [5, 4, 9, 1]])
+    data2 = pca2.fit_transform([[2, 8, 4, 5], [6, 3, 0, 8], [5, 4, 9, 1]])
 
     print(data)
+    print(data2)
 
 
 def main():
