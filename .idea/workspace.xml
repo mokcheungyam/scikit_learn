@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19cf2022-1872-40a3-96fc-b0f73642ae26" name="Default Changelist" comment="" />
+    <list default="true" id="19cf2022-1872-40a3-96fc-b0f73642ae26" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mok_02_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/mok_02_algorithm.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="scikit_learn" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1d4cpDGAC14u3N9EtmM0xjmfSRP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -21,15 +29,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sklearn/datasets/data" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sklearn/datasets/data" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="mok_01_scikit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.mok_02_algorithm">
+    <configuration name="mok_01_feature" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="scikit_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -42,7 +54,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mok_01_scikit.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mok_01_feature.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mok_02_algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="scikit_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mok_02_algorithm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -53,7 +87,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mok_01_scikit" />
+        <item itemvalue="Python.mok_02_algorithm" />
+        <item itemvalue="Python.mok_01_feature" />
       </list>
     </recent_temporary>
   </component>
@@ -69,6 +104,7 @@
       <updated>1591687987087</updated>
       <workItem from="1591687991658" duration="969000" />
       <workItem from="1591703405630" duration="4825000" />
+      <workItem from="1591769849553" duration="3035000" />
     </task>
     <servers />
   </component>
@@ -88,28 +124,38 @@
       <screen x="0" y="23" width="1280" height="746" />
     </state>
     <state x="427" y="157" key="FileChooserDialogImpl/0.23.1280.746@0.23.1280.746" timestamp="1591703490937" />
-    <state width="1238" height="170" key="GridCell.Tab.0.bottom" timestamp="1591708616756">
-      <screen x="0" y="23" width="1280" height="746" />
+    <state width="1238" height="230" key="GridCell.Tab.0.bottom" timestamp="1591773487682">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="170" key="GridCell.Tab.0.bottom/0.23.1280.746@0.23.1280.746" timestamp="1591708616756" />
-    <state width="1238" height="170" key="GridCell.Tab.0.center" timestamp="1591708616755">
-      <screen x="0" y="23" width="1280" height="746" />
+    <state width="1238" height="230" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1591773487682" />
+    <state width="598" height="230" key="GridCell.Tab.0.bottom/0.23.1280.746@0.23.1280.746" timestamp="1591772426974" />
+    <state width="1238" height="230" key="GridCell.Tab.0.center" timestamp="1591773487680">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="170" key="GridCell.Tab.0.center/0.23.1280.746@0.23.1280.746" timestamp="1591708616755" />
-    <state width="1238" height="170" key="GridCell.Tab.0.left" timestamp="1591708616755">
-      <screen x="0" y="23" width="1280" height="746" />
+    <state width="1238" height="230" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1591773487680" />
+    <state width="598" height="230" key="GridCell.Tab.0.center/0.23.1280.746@0.23.1280.746" timestamp="1591772426970" />
+    <state width="1238" height="230" key="GridCell.Tab.0.left" timestamp="1591773487679">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="170" key="GridCell.Tab.0.left/0.23.1280.746@0.23.1280.746" timestamp="1591708616755" />
-    <state width="1238" height="170" key="GridCell.Tab.0.right" timestamp="1591708616755">
-      <screen x="0" y="23" width="1280" height="746" />
+    <state width="1238" height="230" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1591773487679" />
+    <state width="598" height="230" key="GridCell.Tab.0.left/0.23.1280.746@0.23.1280.746" timestamp="1591772426970" />
+    <state width="1238" height="230" key="GridCell.Tab.0.right" timestamp="1591773487681">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="170" key="GridCell.Tab.0.right/0.23.1280.746@0.23.1280.746" timestamp="1591708616755" />
+    <state width="1238" height="230" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1591773487681" />
+    <state width="598" height="230" key="GridCell.Tab.0.right/0.23.1280.746@0.23.1280.746" timestamp="1591772426971" />
     <state x="141" y="35" key="SettingsEditor" timestamp="1591703534352">
       <screen x="0" y="23" width="1280" height="746" />
     </state>
     <state x="141" y="35" key="SettingsEditor/0.23.1280.746@0.23.1280.746" timestamp="1591703534352" />
+    <state x="37" y="155" width="683" height="486" key="find.popup" timestamp="1591772337566">
+      <screen x="0" y="23" width="1280" height="746" />
+    </state>
+    <state x="37" y="155" width="683" height="486" key="find.popup/0.23.1280.746@0.23.1280.746" timestamp="1591772337566" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/scikit_learn$mok_01_feature.coverage" NAME="mok_01_feature Coverage Results" MODIFIED="1591770155461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/scikit_learn$mok_02_algorithm.coverage" NAME="mok_02_algorithm Coverage Results" MODIFIED="1591772632262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/scikit_learn$mok_01_scikit.coverage" NAME="mok_01_scikit Coverage Results" MODIFIED="1591708533006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

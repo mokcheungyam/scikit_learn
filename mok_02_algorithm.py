@@ -12,7 +12,7 @@ import pandas as pd
 
 
 def base_datas():
-    # 先看分类的数据
+    # 鸢尾花数据
     # li = load_iris()
 
     # print("获取特征值")
@@ -24,18 +24,19 @@ def base_datas():
     # 注意返回值, 训练集 train  x_train, y_train        测试集  test   x_test, y_test，顺序千万别搞错了
     # 默认是乱序的
     # x_train, x_test, y_train, y_test = train_test_split(li.data, li.target, test_size=0.25)
-    # #
     # print("训练集特征值和目标值：", x_train, y_train)
     # print("测试集特征值和目标值：", x_test, y_test)
 
-    # 下面是比较大的数据，需要下载一会
+    # 新闻评论数据
+    # news = fetch_20newsgroups(subset='all')  # 下载数据
+
+    # from sklearn.datasets import fetch_20newsgroups  # 直接在官网下载数据并修改源码后
     # news = fetch_20newsgroups(subset='all')
-    #
     # print(news.data)
     # print(news.target)
-    # 接着来看回归的数据
-    lb = load_boston()
 
+    # 波士顿房价数据
+    lb = load_boston()
     print("获取特征值")
     print(lb.data)
     print("目标值")
@@ -232,7 +233,7 @@ def decision():
 
 
 if __name__ == "__main__":
-    # base_datas()
+    base_datas()
     # knncls()
     # naviebayes()
-    decision()
+    # decision()
