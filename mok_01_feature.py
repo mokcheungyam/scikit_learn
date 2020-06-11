@@ -1,5 +1,5 @@
 from sklearn.feature_extraction import DictVectorizer
-from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 from sklearn.feature_selection import VarianceThreshold
 from sklearn.decomposition import PCA
