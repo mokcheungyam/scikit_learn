@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19cf2022-1872-40a3-96fc-b0f73642ae26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mok_03_feature_review.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mok_04_algorithm_review.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mok_05_fblocation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mok_06_news.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mok_07_decisiontree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mok_01_feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/mok_01_feature.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mok_05_fblocation.py" beforeDir="false" afterPath="$PROJECT_DIR$/mok_05_fblocation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,29 +49,7 @@
       <recent name="/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sklearn/datasets/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mok_06_news">
-    <configuration name="mok_01_feature" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="scikit_learn" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mok_01_feature.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.mok_07_decisiontree">
     <configuration name="mok_03_feature_review" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="scikit_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -163,13 +138,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="mok_07_decisiontree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="scikit_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mok_07_decisiontree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mok_06_news" />
+        <item itemvalue="Python.mok_07_decisiontree" />
         <item itemvalue="Python.mok_05_fblocation" />
+        <item itemvalue="Python.mok_06_news" />
         <item itemvalue="Python.mok_04_algorithm_review" />
         <item itemvalue="Python.mok_03_feature_review" />
-        <item itemvalue="Python.mok_01_feature" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +185,10 @@
       <workItem from="1591769849553" duration="3330000" />
       <workItem from="1591832932242" duration="178000" />
       <workItem from="1591861958286" duration="230000" />
-      <workItem from="1591874265106" duration="10517000" />
+      <workItem from="1591874265106" duration="10677000" />
+      <workItem from="1591924420625" duration="1038000" />
+      <workItem from="1591954092618" duration="368000" />
+      <workItem from="1592031526713" duration="1843000" />
     </task>
     <servers />
   </component>
@@ -208,31 +208,31 @@
       <screen x="0" y="23" width="1280" height="746" />
     </state>
     <state x="427" y="157" key="FileChooserDialogImpl/0.23.1280.746@0.23.1280.746" timestamp="1591703490937" />
-    <state width="659" height="208" key="GridCell.Tab.0.bottom" timestamp="1591888243852">
-      <screen x="0" y="23" width="1280" height="746" />
+    <state width="1238" height="208" key="GridCell.Tab.0.bottom" timestamp="1592033591068">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="148" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1591887360691" />
-    <state width="659" height="208" key="GridCell.Tab.0.bottom/0.23.1280.746@0.23.1280.746" timestamp="1591888243852" />
-    <state width="659" height="208" key="GridCell.Tab.0.center" timestamp="1591888243851">
-      <screen x="0" y="23" width="1280" height="746" />
+    <state width="1238" height="208" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1592033591068" />
+    <state width="598" height="208" key="GridCell.Tab.0.bottom/0.23.1280.746@0.23.1280.746" timestamp="1592033382648" />
+    <state width="1238" height="208" key="GridCell.Tab.0.center" timestamp="1592033591067">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="148" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1591887360690" />
-    <state width="659" height="208" key="GridCell.Tab.0.center/0.23.1280.746@0.23.1280.746" timestamp="1591888243851" />
-    <state width="659" height="208" key="GridCell.Tab.0.left" timestamp="1591888243851">
-      <screen x="0" y="23" width="1280" height="746" />
+    <state width="1238" height="208" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1592033591067" />
+    <state width="598" height="208" key="GridCell.Tab.0.center/0.23.1280.746@0.23.1280.746" timestamp="1592033382647" />
+    <state width="1238" height="208" key="GridCell.Tab.0.left" timestamp="1592033591066">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="148" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1591887360689" />
-    <state width="659" height="208" key="GridCell.Tab.0.left/0.23.1280.746@0.23.1280.746" timestamp="1591888243851" />
-    <state width="659" height="208" key="GridCell.Tab.0.right" timestamp="1591888243852">
-      <screen x="0" y="23" width="1280" height="746" />
+    <state width="1238" height="208" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1592033591066" />
+    <state width="598" height="208" key="GridCell.Tab.0.left/0.23.1280.746@0.23.1280.746" timestamp="1592033382647" />
+    <state width="1238" height="208" key="GridCell.Tab.0.right" timestamp="1592033591067">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="148" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1591887360691" />
-    <state width="659" height="208" key="GridCell.Tab.0.right/0.23.1280.746@0.23.1280.746" timestamp="1591888243852" />
-    <state x="141" y="35" key="SettingsEditor" timestamp="1591888262510">
+    <state width="1238" height="208" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1592033591067" />
+    <state width="598" height="208" key="GridCell.Tab.0.right/0.23.1280.746@0.23.1280.746" timestamp="1592033382648" />
+    <state x="141" y="35" key="SettingsEditor" timestamp="1591888448257">
       <screen x="0" y="23" width="1280" height="746" />
     </state>
     <state x="141" y="13" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1591887584275" />
-    <state x="141" y="35" key="SettingsEditor/0.23.1280.746@0.23.1280.746" timestamp="1591888262510" />
+    <state x="141" y="35" key="SettingsEditor/0.23.1280.746@0.23.1280.746" timestamp="1591888448257" />
     <state x="640" y="23" width="640" height="746" key="dock-window-1" timestamp="1591874380189">
       <screen x="0" y="23" width="1280" height="746" />
     </state>
@@ -242,12 +242,39 @@
     </state>
     <state x="37" y="155" width="683" height="486" key="find.popup/0.23.1280.746@0.23.1280.746" timestamp="1591772337566" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mok_05_fblocation.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mok_05_fblocation.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mok_05_fblocation.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="place_count" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/scikit_learn$mok_04_algorithm_review.coverage" NAME="mok_04_algorithm_review Coverage Results" MODIFIED="1591885221394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/scikit_learn$mok_01_feature.coverage" NAME="mok_01_feature Coverage Results" MODIFIED="1591833019799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/scikit_learn$mok_03_feature_review.coverage" NAME="mok_03_feature_review Coverage Results" MODIFIED="1591877737989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/scikit_learn$mok_06_news.coverage" NAME="mok_06_news Coverage Results" MODIFIED="1591888243844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/scikit_learn$mok_05_fblocation.coverage" NAME="mok_05_fblocation Coverage Results" MODIFIED="1591887360680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/scikit_learn$mok_06_news.coverage" NAME="mok_06_news Coverage Results" MODIFIED="1591925095124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/scikit_learn$mok_05_fblocation.coverage" NAME="mok_05_fblocation Coverage Results" MODIFIED="1591925151191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/scikit_learn$mok_07_decisiontree.coverage" NAME="mok_07_decisiontree Coverage Results" MODIFIED="1592033382635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/scikit_learn$mok_02_algorithm.coverage" NAME="mok_02_algorithm Coverage Results" MODIFIED="1591772632262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/scikit_learn$mok_01_scikit.coverage" NAME="mok_01_scikit Coverage Results" MODIFIED="1591708533006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

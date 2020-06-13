@@ -34,7 +34,7 @@ def knn():
     time_value = pd.to_datetime(data['time'], unit='s')
     # print(process_time)
 
-    # 2.增加小时，天，星期几字段
+    # 2.从time_value中提取小时，天，星期几，并添加该字段
     time_value = pd.DatetimeIndex(time_value)
     data.insert(data.shape[1], 'day', time_value.day)
     data.insert(data.shape[1], 'hour', time_value.hour)
@@ -44,7 +44,7 @@ def knn():
     data = data.drop(['time'], axis=1)
 
     # 4.删除签到数低于3的目标位置
-    # 得到位置参数总计
+    # 对各个地理位置进行分组，统计有多少个地理位置
     place_count = data.groupby('place_id').count()
     tf = place_count[place_count.row_id > 3].reset_index()
 
@@ -76,15 +76,15 @@ def knn():
     print(model_score)
 
     # 进行网格搜索
-    param = {"n_neighbors": [3, 5, 10, 12, 13]}
-    gscv = GridSearchCV(knn, param_grid=param, cv=2)
-    gscv.fit(x_train, y_train)
-
-    # 预测准确率
-    print("准确率：", gscv.score(x_test, y_test))
-    print("交叉验证最好的结果：", gscv.best_score_)
-    print("最好的模型：", gscv.best_estimator_)
-    print("超参数每次交叉验证的结果：", gscv.cv_results_)
+    # param = {"n_neighbors": [3, 5, 10, 12, 13]}
+    # gscv = GridSearchCV(knn, param_grid=param, cv=2)
+    # gscv.fit(x_train, y_train)
+    #
+    # # 预测准确率
+    # print("准确率：", gscv.score(x_test, y_test))
+    # print("交叉验证最好的结果：", gscv.best_score_)
+    # print("最好的模型：", gscv.best_estimator_)
+    # print("超参数每次交叉验证的结果：", gscv.cv_results_)
 
 
 def main():
