@@ -18,6 +18,8 @@ import numpy as np
 
 
 def gradient_descent_house_price():
+    """使用梯度下降线性回归预测Boston房价"""
+
     # 1.获取数据
     house_price_datasets = load_boston()
 
