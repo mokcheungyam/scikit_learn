@@ -2,12 +2,11 @@
 # -*- coding:utf-8 -*-
 
 """
-File Name: mok_07_.py 
+File Name: mok_08_random_forest.py 
 Author: mok
 Creation Date: 2020/6/13
 Description: 
 """
-
 from sklearn.datasets import load_iris, fetch_20newsgroups, load_boston
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.neighbors import KNeighborsClassifier
@@ -23,7 +22,7 @@ import pandas as pd
 
 def decision_tree():
     """
-    决策树对泰坦尼克号人员进行生死预测
+    随机森林对泰坦尼克号人员进行生死预测
     """
 
     # 1.数据获取
@@ -44,27 +43,26 @@ def decision_tree():
     # 初始化字典矢量化器
     dict_vector = DictVectorizer(sparse=False)
 
-    # 特征提取，以训练集特征结构为准，需要对测试集进行同样的特征提取
+    # 特征提取
     x_train = dict_vector.fit_transform(x_train.to_dict(orient='records'))
     x_test = dict_vector.transform(x_test.to_dict(orient="records"))
 
-    # print(dict_vector.get_feature_names())
-    # print(x_train)
-    # print(type(x_train))
+    # 5.随机森林预测
+    # 初始化随机森林估计器
+    random_forest = RandomForestClassifier(n_jobs=-1)
 
-    # 5.决策树预测
-    # 初始化决策树估计器
-    decide_tree = DecisionTreeClassifier(max_depth=8)
+    # 自定义n_estimators与max_depth
+    rf_param = {'n_estimators': [120, 200, 300, 500, 800, 1100], 'max_depth': [5, 8, 15, 25, 30]}
 
-    # 使用训练集进行训练
-    decide_tree.fit(x_train, y_train)
+    # 网格搜索与交叉验证
+    gscv = GridSearchCV(random_forest, param_grid=rf_param, cv=2)
 
-    # 预测准确率
-    print("预测的准确率：", decide_tree.score(x_test, y_test))
+    # 开始训练
+    gscv.fit(x_train, y_train)
 
-    # 导出决策树结构
-    export_graphviz(decide_tree, out_file='./tree.dot',
-                    feature_names=['年龄', 'pclass=1st', 'pclass=2nd', 'pclass=3rd', '女性', '男性'])
+    # 输出结果
+    print('预测的准确率：', gscv.score(x_test, y_test))
+    print('最佳参数模型', gscv.best_params_)
 
 
 def main():
