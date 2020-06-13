@@ -63,7 +63,7 @@ def decision_tree():
     print("预测的准确率：", decide_tree.score(x_test, y_test))
 
     # 导出决策树结构
-    export_graphviz(decide_tree, out_file='./tree.dot',
+    export_graphviz(decide_tree, out_file='tmp/tree.dot',
                     feature_names=['年龄', 'pclass=1st', 'pclass=2nd', 'pclass=3rd', '女性', '男性'])
 
 
