@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="19cf2022-1872-40a3-96fc-b0f73642ae26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mok_12_logic_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/mok_12_logic_regression.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,29 +49,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mok_11_ridge_regression">
-    <configuration name="mok_07_decisiontree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="scikit_learn" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mok_07_decisiontree.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.mok_12_logic_regression">
     <configuration name="mok_08_random_forest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="scikit_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,13 +138,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="mok_12_logic_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="scikit_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mok_12_logic_regression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mok_12_logic_regression" />
         <item itemvalue="Python.mok_11_ridge_regression" />
         <item itemvalue="Python.mok_10_gradient_descent" />
         <item itemvalue="Python.mok_09_linear_regression" />
         <item itemvalue="Python.mok_08_random_forest" />
-        <item itemvalue="Python.mok_07_decisiontree" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +188,7 @@
       <workItem from="1591874265106" duration="10677000" />
       <workItem from="1591924420625" duration="1038000" />
       <workItem from="1591954092618" duration="368000" />
-      <workItem from="1592031526713" duration="6906000" />
+      <workItem from="1592031526713" duration="7958000" />
     </task>
     <servers />
   </component>
@@ -207,26 +208,26 @@
       <screen x="0" y="23" width="1280" height="746" />
     </state>
     <state x="427" y="157" key="FileChooserDialogImpl/0.23.1280.746@0.23.1280.746" timestamp="1591703490937" />
-    <state width="598" height="197" key="GridCell.Tab.0.bottom" timestamp="1592038001539">
-      <screen x="0" y="23" width="1280" height="746" />
+    <state width="1238" height="323" key="GridCell.Tab.0.bottom" timestamp="1592039574723">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="197" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1592037981392" />
-    <state width="598" height="197" key="GridCell.Tab.0.bottom/0.23.1280.746@0.23.1280.746" timestamp="1592038001539" />
-    <state width="598" height="197" key="GridCell.Tab.0.center" timestamp="1592038001539">
-      <screen x="0" y="23" width="1280" height="746" />
+    <state width="1238" height="323" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1592039574723" />
+    <state width="681" height="189" key="GridCell.Tab.0.bottom/0.23.1280.746@0.23.1280.746" timestamp="1592039450466" />
+    <state width="1238" height="323" key="GridCell.Tab.0.center" timestamp="1592039574722">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="197" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1592037981391" />
-    <state width="598" height="197" key="GridCell.Tab.0.center/0.23.1280.746@0.23.1280.746" timestamp="1592038001539" />
-    <state width="598" height="197" key="GridCell.Tab.0.left" timestamp="1592038001538">
-      <screen x="0" y="23" width="1280" height="746" />
+    <state width="1238" height="323" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1592039574722" />
+    <state width="681" height="189" key="GridCell.Tab.0.center/0.23.1280.746@0.23.1280.746" timestamp="1592039450465" />
+    <state width="1238" height="323" key="GridCell.Tab.0.left" timestamp="1592039574721">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="197" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1592037981390" />
-    <state width="598" height="197" key="GridCell.Tab.0.left/0.23.1280.746@0.23.1280.746" timestamp="1592038001538" />
-    <state width="598" height="197" key="GridCell.Tab.0.right" timestamp="1592038001539">
-      <screen x="0" y="23" width="1280" height="746" />
+    <state width="1238" height="323" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1592039574721" />
+    <state width="681" height="189" key="GridCell.Tab.0.left/0.23.1280.746@0.23.1280.746" timestamp="1592039450465" />
+    <state width="1238" height="323" key="GridCell.Tab.0.right" timestamp="1592039574723">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="197" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1592037981391" />
-    <state width="598" height="197" key="GridCell.Tab.0.right/0.23.1280.746@0.23.1280.746" timestamp="1592038001539" />
+    <state width="1238" height="323" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1592039574723" />
+    <state width="681" height="189" key="GridCell.Tab.0.right/0.23.1280.746@0.23.1280.746" timestamp="1592039450466" />
     <state x="141" y="35" key="SettingsEditor" timestamp="1591888448257">
       <screen x="0" y="23" width="1280" height="746" />
     </state>
@@ -269,6 +270,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/scikit_learn$mok_01_feature.coverage" NAME="mok_01_feature Coverage Results" MODIFIED="1591833019799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/scikit_learn$mok_12_logic_regression.coverage" NAME="mok_12_logic_regression Coverage Results" MODIFIED="1592039574709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/scikit_learn$test.coverage" NAME="test Coverage Results" MODIFIED="1592034789086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/scikit_learn$mok_07_decisiontree.coverage" NAME="mok_07_decisiontree Coverage Results" MODIFIED="1592035515303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/scikit_learn$mok_01_scikit.coverage" NAME="mok_01_scikit Coverage Results" MODIFIED="1591708533006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
